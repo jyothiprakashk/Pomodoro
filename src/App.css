@@ -1,0 +1,105 @@
+@font-face {
+  font-family: sansB;
+  src: url(./fonts/ProductSans-Bold.ttf);
+}
+@font-face {
+  font-family: sansM;
+  src: url(./fonts/ProductSans-Medium.ttf);
+}
+.pomo {
+  text-align: center;
+    font-family: sansB;
+    color: white;
+    font-size: 43px;
+}
+.incdec {
+  display: flex;
+  margin-top: 13px;
+  display: flex;
+    margin-top: 22px;
+    align-items: center;
+    justify-content: center;
+}
+.sub-pomodoro {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 48px;
+  margin-top: 43px;
+}
+.breaklength {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: sansM;
+  color: white;
+}
+body {
+  background-color: #05AAA5;
+}
+.incdec button {
+  margin-right: 12px;
+    margin-left: 12px;
+    width: 44px;
+    /* border: none; */
+    background-color: #05AAA5;
+    border-radius: 5px;
+    font-size: 27px;
+    border: 1px solid cornsilk;
+    color: white;
+    cursor: pointer;
+}
+.incdec button:hover {
+  background-color: #00716e;
+  
+  
+
+}
+#timelength {
+  background-color: white;
+    color: black;
+    width: 45px;
+    text-align: center;
+    height: 45px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.subtimer {
+  display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 95px;
+    background-color: #05AAA5;
+    width: 200px;
+    margin: auto;
+    border-radius: 50%;
+    height: 200px;
+    border: 5px solid #00716e;
+    color: white;
+    font-family: sansB;
+    font-size: 23px;
+}
+#circle {
+  display: flex;
+  font-size: 40px;
+}
+.timerbuttons button{
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}
+#footer {
+  color: hsla(0,0%,100%,.65);
+  font-family: sansM;
+  text-align: center;
+  margin-top: 30px;
+}
+#footer a {
+  color: hsla(0,0%,100%,.65);
+  font-family: sansM;
+}
+#footer a:hover {
+  color: white;
+}
